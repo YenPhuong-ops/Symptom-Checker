@@ -55,4 +55,4 @@ try:
             st.success(f"### Kết quả: {result}")
             
 except Exception as e:
-    st.error(f"Lỗi: Không tìm thấy file CSV trên GitHub. Con nhớ up file CSV lên cùng thư mục với app.py nhé!")
+    st.error(f"Lỗi: Không tìm thấy file CSV trên GitHub.")
